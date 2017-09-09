@@ -7,7 +7,7 @@ A todo api which allows you to create a user account and add/delete/update/list 
 * Node.js V6 or above
 * Latest version of npm
 * [MongoDB](https://www.mongodb.com/community)
-* [Postman](https://www.getpostman.com/apps) - The tool to make API requests
+* react-flip-move(https://github.com/joshwcomeau/react-flip-move)
 
 ## Getting Started
 
