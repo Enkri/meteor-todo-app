@@ -1,0 +1,14 @@
+.page-content {
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+  @include desktop {
+    padding: $large-space $space;
+    width: 100vw;
+  }
+}
+
+.page-content__addtodo {
+  display: flex;
+  justify-content: space-between;
+}

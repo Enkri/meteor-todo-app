@@ -1,0 +1,43 @@
+.item {
+  background: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: $space;
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1.0rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: $base-font-size;
+  align-items: center;
+}
+
+.item__message {
+  color: $item-text-color;
+}
+
+.item__checkbox {
+  align-items: center;
+  margin-left: 1.0rem;
+  margin-right: 1.0rem;
+  transform: scale(2.0);
+  @media (min-width: 50rem) {
+    transform: scale(2.0);
+    // margin-left: 1.5rem;
+    align-items: flex-start;
+  }
+}
+
+.item__text {
+  text-align: left;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 65%
+}
+
+.item__status-message {
+  color: $item-text-color;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
