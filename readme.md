@@ -17,7 +17,7 @@ This app requires you to have Meteor installed on your machine. Then you can clo
 meteor npm reset
 meteor npm install
 ```
-
+start the app
 ```
 meteor
 ```
